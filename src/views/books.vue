@@ -24,7 +24,7 @@
                 <v-btn text>Resumen</v-btn>
               </router-link>
 
-              <v-btn color="indigo" text>Comprar</v-btn>
+              <a :href="book.url"><v-btn color="indigo" text >Comprar</v-btn></a>
             </v-card-actions>
           </v-container>
         </v-card>
