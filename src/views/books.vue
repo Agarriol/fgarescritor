@@ -41,3 +41,7 @@ export default {
   mixins: [importBooks]
 };
 </script>
+
+<style>
+A {text-decoration: none;}
+</style>
